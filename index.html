@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آسان تجارت هوشمند صبا</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Tailwind Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#0F172A', // Slate 900
+              '10': 'rgba(15, 23, 42, 0.1)',
+            },
+            accent: {
+              DEFAULT: '#38BDF8', // Sky 400
+              '10': 'rgba(56, 189, 248, 0.1)',
+              '20': 'rgba(56, 189, 248, 0.2)',
+              '40': 'rgba(56, 189, 248, 0.4)',
+            },
+            background: '#FFFFFF',
+            card: '#FFFFFF',
+            'muted-foreground': '#64748B', // Slate 500
+          },
+          backgroundImage: {
+            'gradient-subtle': 'linear-gradient(to bottom right, rgba(241, 245, 249, 0.5), rgba(239, 246, 255, 0.5))',
+            'gradient-primary': 'linear-gradient(to right, #38BDF8, #0EA5E9)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Applying a default font */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  </style>
+</head>
+<body class="min-h-screen bg-background">
+
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-subtle py-20 md:py-32 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10"></div>
+    <div class="container mx-auto px-4 text-center relative z-10">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight">
+          تجارت آسان با فناوری هوشمند
+        </h1>
+        <p class="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
+          راهکارهایی برای رشد، پیش‌بینی، توانمندسازی
+        </p>
+        <a href="#about" class="inline-block bg-gradient-primary text-white text-lg px-8 py-4 rounded-lg font-semibold">
+          آشنایی با ما
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 md:py-24">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="flex justify-center mb-8">
+          <div class="p-4 bg-primary/10 rounded-full">
+            <i data-lucide="building-2" class="w-12 h-12 text-primary"></i>
+          </div>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8">
+          درباره آسان تجارت هوشمند صبا
+        </h2>
+        <p class="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12">
+          شرکت آسان تجارت هوشمند صبا با ترکیب فناوری، آموزش و تحلیل داده، راهکارهایی برای توسعه پایدار کسب‌وکارهای کوچک ارائه می‌دهد.
+        </p>
+        
+        <!-- Three Pillars -->
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="flex flex-col items-center">
+            <div class="p-3 bg-accent/10 rounded-full mb-4">
+              <i data-lucide="trending-up" class="w-8 h-8 text-accent"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-primary mb-2">فناوری</h3>
+            <p class="text-muted-foreground text-center">راهکارهای نوین تکنولوژی</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="p-3 bg-accent/10 rounded-full mb-4">
+              <i data-lucide="book-open" class="w-8 h-8 text-accent"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-primary mb-2">آموزش</h3>
+            <p class="text-muted-foreground text-center">توانمندسازی و یادگیری</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="p-3 bg-accent/10 rounded-full mb-4">
+              <i data-lucide="users" class="w-8 h-8 text-accent"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-primary mb-2">پایداری اجتماعی</h3>
+            <p class="text-muted-foreground text-center">توسعه پایدار جامعه</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions Section -->
+  <section class="py-16 md:py-24 bg-gradient-subtle">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
+          راهکارهای ما
+        </h2>
+        <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <!-- Bazaario Card -->
+        <div class="bg-card border-2 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg rounded-xl flex flex-col p-6">
+          <div class="text-center">
+            <div class="flex justify-center mb-4">
+              <div class="p-3 bg-primary/10 rounded-full">
+                <i data-lucide="target" class="w-10 h-10 text-primary"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl font-bold text-primary">بازاریو</h3>
+            <p class="text-lg text-muted-foreground leading-relaxed mt-2">
+              پلتفرم B2B برای خرید و فروش عمده با هوشمندسازی سفارش و تامین
+            </p>
+          </div>
+          <div class="text-center mt-auto pt-6">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full px-4 py-2 border border-slate-200 rounded-lg hover:bg-slate-100 transition-colors">
+              <i data-lucide="external-link" class="w-4 h-4 ml-2"></i>
+              مشاهده بازاریو
+            </a>
+          </div>
+        </div>
+
+        <!-- Khouzdokht Card -->
+        <div class="bg-card border-2 border-accent/20 hover:border-accent/40 transition-all duration-300 hover:shadow-lg rounded-xl flex flex-col p-6">
+          <div class="text-center">
+            <div class="flex justify-center mb-4">
+              <div class="p-3 bg-accent/10 rounded-full">
+                <i data-lucide="lightbulb" class="w-10 h-10 text-accent"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl font-bold text-primary">خوزدخت</h3>
+            <p class="text-lg text-muted-foreground leading-relaxed mt-2">
+              برنامه آموزش، تولید و توانمندسازی اقتصادی زنان خانه‌دار در جنوب کشور با تمرکز بر مهارت‌های درآمدزایی خانگی
+            </p>
+          </div>
+          <div class="text-center mt-auto pt-6">
+            <a href="/khouzdokht" class="flex items-center justify-center w-full px-4 py-2 border border-slate-200 rounded-lg hover:bg-slate-100 transition-colors">
+              <i data-lucide="book-open" class="w-4 h-4 ml-2"></i>
+              جزئیات بیشتر
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="py-16 md:py-24">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
+          شرکای ما
+        </h2>
+        <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-card text-center p-8 rounded-xl shadow-sm">
+          <div class="flex flex-col items-center space-y-4">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+              <i data-lucide="building-2" class="w-8 h-8 text-primary"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-primary">پارک علم و فناوری خوزستان</h3>
+          </div>
+        </div>
+
+        <div class="bg-card text-center p-8 rounded-xl shadow-sm">
+          <div class="flex flex-col items-center space-y-4">
+            <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center">
+              <i data-lucide="book-open" class="w-8 h-8 text-accent"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-primary">دانشگاه نفت</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16 md:py-24 bg-gradient-subtle">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
+          تماس با ما
+        </h2>
+        <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
+      </div>
+
+      <div class="max-w-2xl mx-auto">
+        <div class="bg-card p-8 rounded-xl shadow-md">
+          <div class="space-y-6">
+            <div class="flex items-center gap-4">
+              <div class="p-3 bg-primary/10 rounded-full">
+                <i data-lucide="map-pin" class="w-6 h-6 text-primary"></i>
+              </div>
+              <div>
+                <h3 class="font-semibold text-primary mb-1">آدرس</h3>
+                <p class="text-muted-foreground">اهواز – پارک علم و فناوری خوزستان</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div class="p-3 bg-accent/10 rounded-full">
+                <i data-lucide="phone" class="w-6 h-6 text-accent"></i>
+              </div>
+              <div>
+                <h3 class="font-semibold text-primary mb-1">شماره تماس</h3>
+                <p class="text-muted-foreground" dir="ltr">09163739168</p>
+              </div>
+            </div>
+
+            <div class="text-center pt-6">
+              <button class="bg-gradient-primary text-white text-lg px-8 py-3 rounded-lg font-semibold">
+                ارتباط با ما
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Script to render icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>
