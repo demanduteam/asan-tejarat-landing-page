@@ -50,203 +50,387 @@
 </head>
 <body class="min-h-screen bg-background">
 
-  <!-- Hero Section -->
-  <section class="relative bg-gradient-subtle py-20 md:py-32 overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10"></div>
-    <div class="container mx-auto px-4 text-center relative z-10">
+  <!-- Main Content Wrapper -->
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-subtle py-20 md:py-32 overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10"></div>
+      <div class="container mx-auto px-4 text-center relative z-10">
+        <div class="max-w-4xl mx-auto">
+          <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight">
+            تجارت آسان با فناوری هوشمند
+          </h1>
+          <p class="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
+            راهکارهایی برای رشد، پیش‌بینی، توانمندسازی
+          </p>
+          <a href="#about" class="inline-block bg-gradient-primary text-white text-lg px-8 py-4 rounded-lg font-semibold">
+            آشنایی با ما
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <div class="flex justify-center mb-8">
+            <div class="p-4 bg-primary/10 rounded-full">
+              <i data-lucide="building-2" class="w-12 h-12 text-primary"></i>
+            </div>
+          </div>
+          <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8">
+            درباره آسان تجارت هوشمند صبا
+          </h2>
+          <p class="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12">
+            شرکت آسان تجارت هوشمند صبا با ترکیب فناوری، آموزش و تحلیل داده، راهکارهایی برای توسعه پایدار کسب‌وکارهای کوچک ارائه می‌دهد.
+          </p>
+          
+          <!-- Three Pillars -->
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="flex flex-col items-center">
+              <div class="p-3 bg-accent/10 rounded-full mb-4">
+                <i data-lucide="trending-up" class="w-8 h-8 text-accent"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-primary mb-2">فناوری</h3>
+              <p class="text-muted-foreground text-center">راهکارهای نوین تکنولوژی</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="p-3 bg-accent/10 rounded-full mb-4">
+                <i data-lucide="book-open" class="w-8 h-8 text-accent"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-primary mb-2">آموزش</h3>
+              <p class="text-muted-foreground text-center">توانمندسازی و یادگیری</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="p-3 bg-accent/10 rounded-full mb-4">
+                <i data-lucide="users" class="w-8 h-8 text-accent"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-primary mb-2">پایداری اجتماعی</h3>
+              <p class="text-muted-foreground text-center">توسعه پایدار جامعه</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="py-16 md:py-24 bg-gradient-subtle">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
+            راهکارهای ما
+          </h2>
+          <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <!-- Bazaario Card -->
+          <div class="bg-card border-2 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg rounded-xl flex flex-col p-6">
+            <div class="text-center">
+              <div class="flex justify-center mb-4">
+                <div class="p-3 bg-primary/10 rounded-full">
+                  <i data-lucide="target" class="w-10 h-10 text-primary"></i>
+                </div>
+              </div>
+              <h3 class="text-2xl font-bold text-primary">بازاریو</h3>
+              <p class="text-lg text-muted-foreground leading-relaxed mt-2">
+                پلتفرم B2B برای خرید و فروش عمده با هوشمندسازی سفارش و تامین
+              </p>
+            </div>
+            <div class="text-center mt-auto pt-6">
+              <a href="https://bazaario.net" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full px-4 py-2 border border-slate-200 rounded-lg hover:bg-slate-100 transition-colors">
+                <i data-lucide="external-link" class="w-4 h-4 ml-2"></i>
+                مشاهده بازاریو
+              </a>
+            </div>
+          </div>
+
+          <!-- Khouzdokht Card -->
+          <div class="bg-card border-2 border-accent/20 hover:border-accent/40 transition-all duration-300 hover:shadow-lg rounded-xl flex flex-col p-6">
+            <div class="text-center">
+              <div class="flex justify-center mb-4">
+                <div class="p-3 bg-accent/10 rounded-full">
+                  <i data-lucide="lightbulb" class="w-10 h-10 text-accent"></i>
+                </div>
+              </div>
+              <h3 class="text-2xl font-bold text-primary">خوزدخت</h3>
+              <p class="text-lg text-muted-foreground leading-relaxed mt-2">
+                برنامه آموزش، تولید و توانمندسازی اقتصادی زنان خانه‌دار در جنوب کشور با تمرکز بر مهارت‌های درآمدزایی خانگی
+              </p>
+            </div>
+            <div class="text-center mt-auto pt-6">
+              <a href="#khouzdokht" class="flex items-center justify-center w-full px-4 py-2 border border-slate-200 rounded-lg hover:bg-slate-100 transition-colors">
+                <i data-lucide="book-open" class="w-4 h-4 ml-2"></i>
+                جزئیات بیشتر
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="py-16 md:py-24">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
+            شرکای ما
+          </h2>
+          <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div class="bg-card text-center p-8 rounded-xl shadow-sm">
+            <div class="flex flex-col items-center space-y-4">
+              <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                <i data-lucide="building-2" class="w-8 h-8 text-primary"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-primary">پارک علم و فناوری خوزستان</h3>
+            </div>
+          </div>
+
+          <div class="bg-card text-center p-8 rounded-xl shadow-sm">
+            <div class="flex flex-col items-center space-y-4">
+              <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center">
+                <i data-lucide="book-open" class="w-8 h-8 text-accent"></i>
+              </div>
+              <h3 class="text-xl font-semibold text-primary">دانشگاه نفت</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 md:py-24 bg-gradient-subtle">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
+            تماس با ما
+          </h2>
+          <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
+        </div>
+
+        <div class="max-w-2xl mx-auto">
+          <div class="bg-card p-8 rounded-xl shadow-md">
+            <div class="space-y-6">
+              <div class="flex items-center gap-4">
+                <div class="p-3 bg-primary/10 rounded-full">
+                  <i data-lucide="map-pin" class="w-6 h-6 text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-primary mb-1">آدرس</h3>
+                  <p class="text-muted-foreground">اهواز – پارک علم و فناوری خوزستان</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-4">
+                <div class="p-3 bg-accent/10 rounded-full">
+                  <i data-lucide="phone" class="w-6 h-6 text-accent"></i>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-primary mb-1">شماره تماس</h3>
+                  <p class="text-muted-foreground" dir="ltr">09163739168</p>
+                </div>
+              </div>
+
+              <div class="text-center pt-6">
+                <button class="bg-gradient-primary text-white text-lg px-8 py-3 rounded-lg font-semibold">
+                  ارتباط با ما
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Khouzdokht Page Section (Initially hidden) -->
+  <section id="khouzdokht-page" class="hidden py-16 md:py-24">
+    <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight">
-          تجارت آسان با فناوری هوشمند
-        </h1>
-        <p class="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-          راهکارهایی برای رشد، پیش‌بینی، توانمندسازی
-        </p>
-        <a href="#about" class="inline-block bg-gradient-primary text-white text-lg px-8 py-4 rounded-lg font-semibold">
-          آشنایی با ما
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="py-16 md:py-24">
-    <div class="container mx-auto px-4">
-      <div class="max-w-4xl mx-auto text-center">
-        <div class="flex justify-center mb-8">
-          <div class="p-4 bg-primary/10 rounded-full">
-            <i data-lucide="building-2" class="w-12 h-12 text-primary"></i>
+        <div class="text-center mb-12">
+          <div class="flex justify-center mb-8">
+            <div class="p-4 bg-accent/10 rounded-full">
+              <i data-lucide="lightbulb" class="w-12 h-12 text-accent"></i>
+            </div>
           </div>
+          <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4">پروژه خوزدخت</h1>
+          <p class="text-xl text-muted-foreground">توانمندسازی اقتصادی زنان خانه‌دار در جنوب کشور</p>
         </div>
-        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8">
-          درباره آسان تجارت هوشمند صبا
-        </h2>
-        <p class="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12">
-          شرکت آسان تجارت هوشمند صبا با ترکیب فناوری، آموزش و تحلیل داده، راهکارهایی برای توسعه پایدار کسب‌وکارهای کوچک ارائه می‌دهد.
-        </p>
-        
-        <!-- Three Pillars -->
-        <div class="grid md:grid-cols-3 gap-8">
-          <div class="flex flex-col items-center">
-            <div class="p-3 bg-accent/10 rounded-full mb-4">
-              <i data-lucide="trending-up" class="w-8 h-8 text-accent"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-primary mb-2">فناوری</h3>
-            <p class="text-muted-foreground text-center">راهکارهای نوین تکنولوژی</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="p-3 bg-accent/10 rounded-full mb-4">
-              <i data-lucide="book-open" class="w-8 h-8 text-accent"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-primary mb-2">آموزش</h3>
-            <p class="text-muted-foreground text-center">توانمندسازی و یادگیری</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="p-3 bg-accent/10 rounded-full mb-4">
-              <i data-lucide="users" class="w-8 h-8 text-accent"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-primary mb-2">پایداری اجتماعی</h3>
-            <p class="text-muted-foreground text-center">توسعه پایدار جامعه</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Solutions Section -->
-  <section class="py-16 md:py-24 bg-gradient-subtle">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
-          راهکارهای ما
-        </h2>
-        <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-        <!-- Bazaario Card -->
-        <div class="bg-card border-2 border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg rounded-xl flex flex-col p-6">
-          <div class="text-center">
-            <div class="flex justify-center mb-4">
-              <div class="p-3 bg-primary/10 rounded-full">
-                <i data-lucide="target" class="w-10 h-10 text-primary"></i>
-              </div>
-            </div>
-            <h3 class="text-2xl font-bold text-primary">بازاریو</h3>
-            <p class="text-lg text-muted-foreground leading-relaxed mt-2">
-              پلتفرم B2B برای خرید و فروش عمده با هوشمندسازی سفارش و تامین
+        <div class="bg-card p-8 rounded-xl shadow-md space-y-8">
+          <div>
+            <h2 class="text-2xl font-bold text-primary mb-4">اهداف پروژه</h2>
+            <p class="text-lg text-muted-foreground leading-relaxed">
+              پروژه خوزدخت با هدف ایجاد فرصت‌های شغلی پایدار برای زنان خانه‌دار در استان خوزستان طراحی شده است. ما با ارائه آموزش‌های تخصصی و فراهم کردن دسترسی به بازار، به دنبال استقلال مالی و رشد فردی این عزیزان هستیم.
             </p>
           </div>
-          <div class="text-center mt-auto pt-6">
-            <a href="#" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full px-4 py-2 border border-slate-200 rounded-lg hover:bg-slate-100 transition-colors">
-              <i data-lucide="external-link" class="w-4 h-4 ml-2"></i>
-              مشاهده بازاریو
-            </a>
+
+          <div>
+            <h2 class="text-2xl font-bold text-primary mb-6">محورهای اصلی برنامه</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+              <div class="flex flex-col items-center">
+                <div class="p-3 bg-primary/10 rounded-full mb-4">
+                  <i data-lucide="award" class="w-8 h-8 text-primary"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-primary mb-2">آموزش مهارت</h3>
+                <p class="text-muted-foreground">برگزاری کارگاه‌های خیاطی، صنایع دستی و بسته‌بندی.</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="p-3 bg-primary/10 rounded-full mb-4">
+                  <i data-lucide="package" class="w-8 h-8 text-primary"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-primary mb-2">تولید محصول</h3>
+                <p class="text-muted-foreground">حمایت از تولید محصولات با کیفیت و قابل عرضه به بازار.</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="p-3 bg-primary/10 rounded-full mb-4">
+                  <i data-lucide="shopping-cart" class="w-8 h-8 text-primary"></i>
+                </div>
+                <h3 class="text-xl font-semibold text-primary mb-2">اتصال به بازار</h3>
+                <p class="text-muted-foreground">ایجاد کانال‌های فروش آنلاین و حضوری برای محصولات.</p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Khouzdokht Card -->
-        <div class="bg-card border-2 border-accent/20 hover:border-accent/40 transition-all duration-300 hover:shadow-lg rounded-xl flex flex-col p-6">
-          <div class="text-center">
-            <div class="flex justify-center mb-4">
-              <div class="p-3 bg-accent/10 rounded-full">
-                <i data-lucide="lightbulb" class="w-10 h-10 text-accent"></i>
-              </div>
-            </div>
-            <h3 class="text-2xl font-bold text-primary">خوزدخت</h3>
-            <p class="text-lg text-muted-foreground leading-relaxed mt-2">
-              برنامه آموزش، تولید و توانمندسازی اقتصادی زنان خانه‌دار در جنوب کشور با تمرکز بر مهارت‌های درآمدزایی خانگی
-            </p>
-          </div>
-          <div class="text-center mt-auto pt-6">
-            <a href="/khouzdokht" class="flex items-center justify-center w-full px-4 py-2 border border-slate-200 rounded-lg hover:bg-slate-100 transition-colors">
-              <i data-lucide="book-open" class="w-4 h-4 ml-2"></i>
-              جزئیات بیشتر
-            </a>
-          </div>
+        <div class="text-center mt-12 space-x-4">
+          <a href="#courses" class="inline-block bg-gradient-primary text-white text-lg px-8 py-4 rounded-lg font-semibold">
+            مشاهده دوره‌های آنلاین
+          </a>
+          <a href="#" class="inline-flex items-center text-lg text-primary font-semibold hover:text-accent transition-colors">
+            <i data-lucide="arrow-right" class="ml-2"></i>
+            بازگشت به صفحه اصلی
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Partners Section -->
-  <section class="py-16 md:py-24">
+  <!-- Courses Page Section (Initially hidden) -->
+  <section id="courses-page" class="hidden py-16 md:py-24 bg-gradient-subtle">
     <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
-          شرکای ما
-        </h2>
-        <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-        <div class="bg-card text-center p-8 rounded-xl shadow-sm">
-          <div class="flex flex-col items-center space-y-4">
-            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-              <i data-lucide="building-2" class="w-8 h-8 text-primary"></i>
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+          <div class="flex justify-center mb-8">
+            <div class="p-4 bg-primary/10 rounded-full">
+              <i data-lucide="book-marked" class="w-12 h-12 text-primary"></i>
             </div>
-            <h3 class="text-xl font-semibold text-primary">پارک علم و فناوری خوزستان</h3>
+          </div>
+          <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4">آموزش‌های آنلاین خوزدخت</h1>
+          <p class="text-xl text-muted-foreground">از همینجا می‌توانید دوره‌های رایگان ما را ببینید و مهارت جدید یاد بگیرید.</p>
+        </div>
+
+        <!-- Courses List -->
+        <div class="space-y-12">
+          <!-- Database Course -->
+          <div>
+            <h2 class="text-2xl font-bold text-primary mb-2">دوره مقدماتی پایگاه داده و اینترنت</h2>
+            <p class="text-lg text-muted-foreground mb-6">آشنایی با مفاهیم پایه دیتابیس و اینترنت مناسب برای شروع کنندگان</p>
+            <div class="bg-card p-6 rounded-xl shadow-sm space-y-4">
+              <a href="https://drive.google.com/file/d/1cuHFWQ5Z8FO5OLYu2ws8O1goYnq-fZ7z/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-4 border rounded-lg hover:bg-slate-50 transition-colors">
+                <span>جلسه اول</span>
+                <span class="flex items-center text-sm font-semibold text-primary"><i data-lucide="download" class="w-4 h-4 ml-2"></i>مشاهده و دانلود</span>
+              </a>
+              <a href="https://drive.google.com/file/d/1Ywf0WvtWYMV5vD-dVrLZYe9-Y2LN419e/view" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-4 border rounded-lg hover:bg-slate-50 transition-colors">
+                <span>جلسه دوم</span>
+                <span class="flex items-center text-sm font-semibold text-primary"><i data-lucide="download" class="w-4 h-4 ml-2"></i>مشاهده و دانلود</span>
+              </a>
+              <a href="https://drive.google.com/file/d/13d-18ZcZE6_63wfTHc8bmTpRaJAhA_my/view" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-4 border rounded-lg hover:bg-slate-50 transition-colors">
+                <span>جلسه سوم</span>
+                <span class="flex items-center text-sm font-semibold text-primary"><i data-lucide="download" class="w-4 h-4 ml-2"></i>مشاهده و دانلود</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- WordPress Course -->
+          <div>
+            <h2 class="text-2xl font-bold text-primary mb-2">دوره آموزش وردپرس</h2>
+            <p class="text-lg text-muted-foreground mb-6">آشنایی با راه اندازی سایت با وردپرس مناسب برای علاقه مندان به طراحی سایت</p>
+            <div class="bg-card p-6 rounded-xl shadow-sm space-y-4">
+              <a href="https://drive.google.com/file/d/1V_W-vYYmcORjVXqs1d4yWwITQ1iEw6mZ/view" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-4 border rounded-lg hover:bg-slate-50 transition-colors">
+                <span>جلسه اول</span>
+                <span class="flex items-center text-sm font-semibold text-primary"><i data-lucide="download" class="w-4 h-4 ml-2"></i>مشاهده و دانلود</span>
+              </a>
+              <a href="https://drive.google.com/file/d/1VmEPbfeDx10EW17BHOhMLgjD_2dLumy4/view" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-4 border rounded-lg hover:bg-slate-50 transition-colors">
+                <span>جلسه دوم</span>
+                <span class="flex items-center text-sm font-semibold text-primary"><i data-lucide="download" class="w-4 h-4 ml-2"></i>مشاهده و دانلود</span>
+              </a>
+              <a href="https://drive.google.com/file/d/1XQBkpQyrBbW_kq1lE8wQmGCb5t6OOW7P/view" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-4 border rounded-lg hover:bg-slate-50 transition-colors">
+                <span>جلسه سوم</span>
+                <span class="flex items-center text-sm font-semibold text-primary"><i data-lucide="download" class="w-4 h-4 ml-2"></i>مشاهده و دانلود</span>
+              </a>
+              <a href="https://drive.google.com/file/d/1ZxriG1_Zh3hd8ZAiGhAE8HRsiR20JeJm/view" target="_blank" rel="noopener noreferrer" class="flex justify-between items-center p-4 border rounded-lg hover:bg-slate-50 transition-colors">
+                <span>جلسه چهارم</span>
+                <span class="flex items-center text-sm font-semibold text-primary"><i data-lucide="download" class="w-4 h-4 ml-2"></i>مشاهده و دانلود</span>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="bg-card text-center p-8 rounded-xl shadow-sm">
-          <div class="flex flex-col items-center space-y-4">
-            <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center">
-              <i data-lucide="book-open" class="w-8 h-8 text-accent"></i>
+        <!-- Organizers -->
+        <div class="text-center mt-16">
+          <h2 class="text-3xl font-bold text-primary mb-8">برگزار کنندگان این دوره‌ها</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div class="bg-card p-6 rounded-xl shadow-sm flex flex-col items-center justify-center">
+              <h3 class="text-xl font-semibold text-primary">شرکت نفت و گاز اروندان</h3>
+              <p class="text-muted-foreground mt-2">پیشگام توسعه نفت و گاز خوزستان</p>
             </div>
-            <h3 class="text-xl font-semibold text-primary">دانشگاه نفت</h3>
+            <div class="bg-card p-6 rounded-xl shadow-sm flex flex-col items-center justify-center">
+              <h3 class="text-xl font-semibold text-primary">پارک علم و فناوری خوزستان</h3>
+              <p class="text-muted-foreground mt-2">مرکز نوآوری و حمایت از استارتاپ‌ها</p>
+            </div>
+            <div class="bg-card p-6 rounded-xl shadow-sm flex flex-col items-center justify-center">
+              <h3 class="text-xl font-semibold text-primary">آسان تجارت هوشمند صبا</h3>
+              <p class="text-muted-foreground mt-2">مجری راهکارهای نوین تجاری</p>
+            </div>
           </div>
+        </div>
+
+        <div class="text-center mt-12">
+          <a href="#khouzdokht" class="inline-flex items-center text-lg text-primary font-semibold hover:text-accent transition-colors">
+            <i data-lucide="arrow-right" class="ml-2"></i>
+            بازگشت به صفحه خوزدخت
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="py-16 md:py-24 bg-gradient-subtle">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
-          تماس با ما
-        </h2>
-        <div class="w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
-      </div>
-
-      <div class="max-w-2xl mx-auto">
-        <div class="bg-card p-8 rounded-xl shadow-md">
-          <div class="space-y-6">
-            <div class="flex items-center gap-4">
-              <div class="p-3 bg-primary/10 rounded-full">
-                <i data-lucide="map-pin" class="w-6 h-6 text-primary"></i>
-              </div>
-              <div>
-                <h3 class="font-semibold text-primary mb-1">آدرس</h3>
-                <p class="text-muted-foreground">اهواز – پارک علم و فناوری خوزستان</p>
-              </div>
-            </div>
-
-            <div class="flex items-center gap-4">
-              <div class="p-3 bg-accent/10 rounded-full">
-                <i data-lucide="phone" class="w-6 h-6 text-accent"></i>
-              </div>
-              <div>
-                <h3 class="font-semibold text-primary mb-1">شماره تماس</h3>
-                <p class="text-muted-foreground" dir="ltr">09163739168</p>
-              </div>
-            </div>
-
-            <div class="text-center pt-6">
-              <button class="bg-gradient-primary text-white text-lg px-8 py-3 rounded-lg font-semibold">
-                ارتباط با ما
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Script to render icons -->
+  <!-- Script to render icons and handle navigation -->
   <script>
     lucide.createIcons();
+
+    // Simple single-page navigation logic
+    const mainContent = document.getElementById('main-content');
+    const khouzdokhtPage = document.getElementById('khouzdokht-page');
+    const coursesPage = document.getElementById('courses-page');
+
+    function updatePageVisibility() {
+      const hash = window.location.hash;
+
+      mainContent.classList.add('hidden');
+      khouzdokhtPage.classList.add('hidden');
+      coursesPage.classList.add('hidden');
+
+      if (hash === '#khouzdokht') {
+        khouzdokhtPage.classList.remove('hidden');
+      } else if (hash === '#courses') {
+        coursesPage.classList.remove('hidden');
+      } else {
+        mainContent.classList.remove('hidden');
+      }
+      window.scrollTo(0, 0); // Scroll to top
+    }
+
+    // Listen for hash changes to navigate
+    window.addEventListener('hashchange', updatePageVisibility);
+
+    // Check on initial page load
+    document.addEventListener('DOMContentLoaded', updatePageVisibility);
   </script>
 
 </body>
